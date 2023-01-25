@@ -1,0 +1,117 @@
+@import 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+:root {
+    --fonte1:'Righteous', cursive;
+    --fonte2:'Sarala', sans-serif;
+    --cor1:#CFBAB6;
+    --cor2:#83564C;
+    --cor3:#442e29;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to right, var(--cor3), var(--cor2))
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo-ballerini{
+    height: 72px;
+}
+
+.menu-navegacao{
+    display:flex;
+    gap: 30px;
+}
+
+.itens-nav{
+    font-family: var(--fonte2);
+    color:white;
+    font-weight: normal;
+    font-size:18px;
+}
+
+.conteudo-principal{
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+}
+
+.conteudo-parte1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo-principal{
+    font-family: var(--fonte1);
+    font-size: 64px;
+    font-weight: 400px;
+}
+
+.texto-principal{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: var(--fonte2);
+}
+
+.ballebot {
+    height: 430px;
+}
+
+.titulo-segundario{
+    font-family: var(--fonte2);
+    color:var(--cor1);
+    font-style: normal;
+    font-weight: 400px;
+}
+
+.botao{
+    font-weight: bold;
+    font-family: var(--fonte2);
+    background-color: var(--cor1);
+    width: 180px;
+    height: 60px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
+}
+
+.conteudo-parte2{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--fonte2);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.titulo-terciario{
+    padding-top: 20px;
+    border-top: 0.4px solid white;
+}
+
+.rodape{
+    text-align: center;
+    font-family: var(--fonte2);
+}
+
+
